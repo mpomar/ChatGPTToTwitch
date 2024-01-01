@@ -56,14 +56,14 @@
 ## Usage
 
 - Define the required variables in config.py 
-  - username: This is the bot's username on Twitch 
-  - oauth_token: This represents the Oauth Token of the Twitch bot
-  - channel: Indicate the Twitch channel that the bot will join
-  - openai.api_key: The Open API Key required for connecting to Open AI
+  - `username` is the bot's username on Twitch 
+  - `oauth_token` represents the Oauth Token of the Twitch bot
+  - `channel` is the Twitch channel that the bot will join
+  - `openai.api_key` must contain the Open API Key 
 - You may also wish to adjust certain Open AI parameters:
-  - model: This determines the model Open AI will utilize to generate responses 
-  - temperature: This influences the creativity of the answers. I've set it to 0.3 to ensure informative responses rather than overly creative ones
-  - max_tokens: This parameter controls the length of the answers. I've set it to 20 to maintain concise responses, keeping in mind that Open AI charges more for longer answers.
+  - `model` determines the model Open AI will utilize to generate responses 
+  - `temperature` influences the creativity of the answers: I've set it to 0.3 to ensure informative responses rather than overly creative ones
+  - `max_tokens` controls the length of the answers: I've set it to 20 to maintain concise responses, keeping in mind that Open AI charges more for longer answers.
 - Run main.py to launch the bot
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
